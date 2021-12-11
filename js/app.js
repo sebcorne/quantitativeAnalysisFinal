@@ -129,7 +129,7 @@ function startup() {
 
         var textValue = document.body.querySelector(".input_user").value;
         var textValuePass = document.body.querySelector(".input_pass").value;
-        if (textValue==="cool"&&textValuePass==="Password") {
+        if (textValue==="cool"&&textValuePass==="password") {
             loginEle.innerHTML=""
             wrapper.innerHTML=""
             responseDiv.innerHTML = ""
